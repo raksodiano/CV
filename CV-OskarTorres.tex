@@ -7,45 +7,55 @@
 % black, blue, burgundy, green, grey, orange, purple, red
 % Themes
 % banking, classic, casual, oldstyle, fancy
-\moderncvtheme[blue]{classic}
+\moderncvtheme[blue]{casual}
 
 % character encoding
 \usepackage[utf8]{inputenc}
 
 % adjust page margins
-\usepackage[scale=0.9]{geometry}
+\usepackage[scale=0.8]{geometry}
 \recomputelengths
 
 % for placing content in footer/header
 \usepackage{fancyhdr}
 \pagestyle{fancy}
+\pagenumbering{gobble}
 
 % personal data
-\firstname{Oskar}
-\familyname{Torres}
+\firstname{Oskar Enrique}
+\familyname{Torres Ojeda}
 \address{Medellin}{Colombia}
 \phone[mobile]{(+57) 311 332 81 63}
 \email{oskar.torres.1234@gmail.com}
 \social[linkedin]{oskartorresojeda}
 \social[github]{raksodiano}
 
-\title{\small Ingeniero en Informática $\star$ Entusiasta del Open Source $\star$ Guitarrista $\star$ Gamer}
+\title{\small Ingeniero en Informática $\Phi$ Entusiasta del Open Source $\Phi$ Guitarrista}
 \quote{Metódico y autodidacta, comprometido con la excelencia y resultados sobresalientes. Enfocado en generar ideas innovadoras y encontrar soluciones eficientes para lograr un trabajo de alta calidad.}
 
 \begin{document}
 \maketitle
 
-\section{Habilidades técnicas}
+\section{\textbf{Habilidades técnicas}}
 
-\cvlistitem{\textbf{Frameworks}: Symfony, ReactJS, NestJS.}
+\cvlistitem{\textbf{Frameworks}: Symfony, NestJS, Laravel, VueJS.}
 \cvlistitem{\textbf{Lenguajes}: Javascript, Typescript, Python, PHP.}
 \cvlistitem{\textbf{Base de datos}: MongoDB, PostgreSQL, MariaDB, Firebase.}
 \cvlistitem{\textbf{Nube}: Google Cloud Platform.}
+\cvlistitem{\textbf{Contenedores}: Docker.}
 \cvlistitem{\textbf{Web Servers}: Apache, NGINX.}
-\cvlistitem{\textbf{Sistemas Operativos}: Debian, CentOS, Ubuntu.}
+\cvlistitem{\textbf{Sistemas Operativos}: Debian, Ubuntu, AlmaLinux, RockyLinux.}
 \cvlistitem{\textbf{Control de versiones}: Git}
 
-\section{Experiencia}
+\section{\textbf{Experiencia}}
+\cventry{2023 -- Actu}{Desarrollador fullstack}{Instituto Pacifico}{}{}{Desarrollador de modulos multifuncionales para diversos sistemas internos.
+\begin{itemize}%
+\item Planificación y desarrollo de modulos en base a Laravel.
+\item Desarrollo y diseño responsivo de vistas en VueJS.
+\item Integración y modularización de componentes backend y frontend.
+\item Manejo de Microservicios y automatización de deploys.
+\end{itemize}}
+
 \cventry{2022 -- 2023}{Desarrollador Backend}{Seeed}{}{}{Desarrollador de modulos multifuncionales para diversos sistemas.
 \begin{itemize}%
 \item Planificación y desarrollo de modulos con Auth0 y Square.
@@ -65,23 +75,11 @@
 
 \cventry{2014 -- 2018}{Freelance}{}{}{}{Consultor externo, técnico en redes y desarrollador de software.}
 
-\subsection{Pasantias/Practicas Profesionales}
-\cventry{2017 -- 2018}{Desarrollador de Software}{}{Alcald\'ia del Municipio Santiago Mari\~no}{}{}
-
-\section{Formaci\'on acad\'emica}
+\section{\textbf{Formaci\'on acad\'emica}}
 \cventry{2012 -- 2019}{Ingeniero en Informática}{U.N.E.R.G}{Venezuela}{}{}
 
-\section{Idiomas}
-\cvitem{Espa\~nol}{Nativo}
-\cvitem{Ingles}{Principiante(A2)}
-
-\section{Hobbies}
-\cvitem{Open Source}{Apasionado por el código abierto, disfruto analizando el trabajo de expertos para mejorar mis habilidades.}
-\cvitem{Música}{Disfruto tocando la guitarra y desafiándome con piezas musicales complicadas.}
-\cvitem{Video Juegos}{Apasionado por los videojuegos retro.}
+% \section{Idiomas}
+% \cvitem{Espa\~nol}{Nativo}
+% \cvitem{Ingles}{Principiante(A2)}
 
 \end{document}
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: "CV-OskarTorres.pdf"
-%%% End:
