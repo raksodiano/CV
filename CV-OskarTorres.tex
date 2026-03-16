@@ -1,37 +1,9 @@
 \documentclass[11pt,a4paper]{moderncv}
 
-
 \usepackage{fontawesome5}
-\newcommand*{\blogsocialsymbol}{\faGlobe~}  
+\newcommand*{\blogsocialsymbol}{\faGlobe~}
 
-% moderncv themes
-% colors
-% black, blue, burgundy, green, grey, orange, purple, red
-% Themes
-% banking, classic, casual, oldstyle, fancy
-\moderncvtheme[blue]{banking}
-
-% character encoding
-\usepackage[utf8]{inputenc}
-\renewcommand{\familydefault}{\sfdefault}
-
-% adjust page margins
-\usepackage[scale=0.9]{geometry}
-\recomputelengths
-
-% for placing content in footer/header
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\pagenumbering{gobble}
-
-% personal data
-\firstname{Oskar}
-\familyname{Torres}
-\title{Ingeniero en Informática}
-\address{Medellín}{Colombia}
-\phone[mobile]{(+57) 311 332 81 63}
-\email{oskar.torres.1234@gmail.com}
-\social[blog][raksodiano.github.io/un-dev-mas/]{Blog - Un Dev Más}
+\moderncvthemev Más}
 \social[linkedin]{oskartorresojeda}
 \social[github]{raksodiano}
 
@@ -39,47 +11,39 @@
 \maketitle
 
 \section{\textbf{Perfil Laboral}}
-Ingeniero en informática, con más 10 años de experiencia en cargos como Desarrollador Backend y Desarrollador Fullstack. Desempeñando funciones como planificación, desarrollo, optimización y despliegues automatizados. Con conocimientos en gestión y planificación proyectos y habilidades en JavaScript, Python, Node.js, Vue.js e Inteligencia Artificial. Con competencias laborales en adaptabilidad al cambio, orientación al logro, pensamiento analítico, trabajo colaborativo y apertura al aprendizaje.
+Ingeniero en Informática con \textbf{10+ años} transformando arquitecturas legacy en sistemas distribuidos de alto rendimiento. Historial comprobado liderando migraciones a microservicios, automatizando pipelines CI/CD y reduciendo costos operativos en producción. Stack principal: NestJS, Node.js, Python y GCP. Orientado a entregar impacto medible: menor tiempo de deploy, mayor disponibilidad y equipos que desarrollan más rápido.
 
 \section{\textbf{Habilidades técnicas}}
-
-\cvlistitem{\textbf{Frameworks}: NestJS, Laravel, Symfony, Vue.js.}
-\cvlistitem{\textbf{Lenguajes}: Javascript, Typescript, PHP, Python.}
-\cvlistitem{\textbf{Base de datos}: PostgreSQL, MariaDB, MongoDB, Firebase.}
-\cvlistitem{\textbf{Nube}: Google Cloud Platform.}
-\cvlistitem{\textbf{Contenedores}: Docker.}
-\cvlistitem{\textbf{Web Servers}: Apache, NGINX.}
-\cvlistitem{\textbf{Sistemas Operativos}: Debian, Ubuntu, AlmaLinux, RockyLinux.}
-\cvlistitem{\textbf{Control de versiones}: Git}
+\cvlistitem{\textbf{Frameworks / Lenguajes}: NestJS, Laravel, Symfony, Vue.js · Javascript, Typescript, PHP, Python.}
+\cvlistitem{\textbf{Bases de datos}: PostgreSQL, MariaDB, MongoDB, Firebase.}
+\cvlistitem{\textbf{Cloud \& DevOps}: Google Cloud Platform, Docker, Apache, NGINX.}
+\cvlistitem{\textbf{SO / Control de versiones}: Debian, Ubuntu, AlmaLinux, RockyLinux · Git.}
 
 \section{\textbf{Experiencia}}
-\cventry{2023 -- Actu}{Desarrollador Fullstack}{Instituto Pacífico}{Lima, Perú}{Remoto}{Responsable de la modernización y optimización, con enfoque en escalabilidad, rendimiento y buenas prácticas de desarrollo.
-\begin{itemize}%
-\item Lideré la migración de una arquitectura monolítica a microservicios, mejorando la mantenibilidad y escalabilidad del sistema.
-\item Implementé un sistema de despliegues automáticos, reduciendo errores manuales y acelerando el ciclo de desarrollo.
-\item Reestructuré la arquitectura de más de 30 servicios, lo que resultó en una plataforma más robusta y eficiente.
-\item Optimizé el consumo del servidor, logrando una reducción significativa en los recursos utilizados por los servicios activos.
-\end{itemize}}
-
-\cventry{2022 -- 2023}{Desarrollador Backend}{Seeed}{USA, Miami}{Remoto}{Contribuí al diseño y desarrollo de sistemas y módulos multifuncionales orientados a escalar operaciones internas y mejorar la eficiencia de procesos clave.
+\cventry{2023 -- 2025}{Desarrollador Fullstack}{Instituto Pacífico}{Lima, Perú}{Remoto}{
 \begin{itemize}
-\item Lideré la planificación y desarrollo de módulos backend en NestJS, reduciendo los tiempos de desarrollo en un 30\%.
-\item Implementé arquitectura basada en microservicios, mejorando la escalabilidad y reduciendo errores de integración.
-\item Desarrollé e integré funciones en Google Cloud, optimizando el rendimiento de procesos críticos.
-\item Diseñé soluciones con Auth0 para la gestión de autenticación segura y con Square para procesamiento de pagos, logrando una integración confiable y fluida.
+\item Lideré la migración de arquitectura monolítica a microservicios en \textbf{30+ servicios}, reduciendo el tiempo de deploy en \textbf{\~{}60\%} y eliminando dependencias circulares críticas.
+\item Implementé pipeline CI/CD desde cero, llevando la tasa de errores en releases manuales a \textbf{0\%} y acortando el ciclo release-to-production de semanas a horas.
+\item Optimicé el consumo de recursos de los contenedores activos, permitiendo escalar sin incrementar infraestructura.
+\item Establecí estándares de arquitectura y revisión de código que aceleraron el onboarding de nuevos desarrolladores al equipo.
 \end{itemize}}
 
-\cventry{2020}{Desarrollador Full Stack}{ePayco}{Medellín, Colombia}{Remoto}{Contribuí al desarrollo de módulos clave para la pasarela de pagos, enfocado en mejorar la eficiencia y la experiencia del usuario.
-\begin{itemize}%
-\item Desarrollé y optimicé módulos multifuncionales, mejorando el rendimiento y la estabilidad del sistema de pagos.
-\item Colaboré en la refactorización del frontend y backend de componentes críticos, reduciendo la deuda técnica y mejorando la mantenibilidad.
+\cventry{2022 -- 2023}{Desarrollador Backend}{Seeed}{USA, Miami}{Remoto}{
+\begin{itemize}
+\item Desarrollé módulos backend en \textbf{NestJS} con arquitectura modular, reduciendo los tiempos de desarrollo del equipo en un \textbf{30\%}.
+\item Integré \textbf{Auth0} y \textbf{Square} para autenticación y pagos; ambas integraciones entregadas en tiempo y con cero incidentes de seguridad post-lanzamiento.
+\item Optimicé Cloud Functions en \textbf{GCP}, reduciendo la latencia en procesos críticos de negocio.
+\item Diseñé arquitectura basada en microservicios independientes por dominio, mejorando la escalabilidad horizontal y reduciendo errores de integración entre servicios.
+\end{itemize}}
+
+\cventry{2020}{Desarrollador Full Stack}{ePayco}{Medellín, Colombia}{Remoto}{
+\begin{itemize}
+\item Optimicé módulos core de la pasarela de pagos, reduciendo la tasa de fallos bajo picos de carga transaccional.
+\item Lideré la refactorización de componentes críticos, reduciendo deuda técnica y mejorando la mantenibilidad del código base.
+\item Colaboré en el desarrollo de nuevas funcionalidades del dashboard de comercios, mejorando la visibilidad de métricas de transacciones en tiempo real.
 \end{itemize}}
 
 \section{\textbf{Formaci\'on acad\'emica}}
 \cventry{2012 -- 2019}{Ingeniero en Informática}{U.N.E.R.G}{Venezuela}{}{}
-
-% \section{Idiomas}
-% \cvitem{Espa\~nol}{Nativo}
-% \cvitem{Ingles}{Principiante(A2)}
 
 \end{document}
